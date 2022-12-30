@@ -1,6 +1,6 @@
 # ZORIN OS 22.04.1 LTS: after install
 Things to do after installing Zorin Operating System. <br/>
-Tested version: Zorin OS 16.2 Core (Ubuntu 22.04.1 LTS)
+Tested version: Zorin OS 16.2 Core (based on Ubuntu 22.04 LTS)
 <br/>
 https://zorin.com/os/download/
 
@@ -69,8 +69,8 @@ https://zorin.com/os/download/
 	sudo make install
 	sudo reboot
 
-- Source 1: https://www.youtube.com/watch?v=tyLMzIAxj-4
-- Source 2: https://github.com/brektrou/rtl8821CU
+- Source 1: https://github.com/brektrou/rtl8821CU
+- Source 2: https://www.youtube.com/watch?v=tyLMzIAxj-4
 
 <br/>
 
@@ -88,6 +88,7 @@ https://zorin.com/os/download/
 <br/>
 
 ## 3 ➜ SETTINGS
+
 ### 3.1 – Plank:
 Download themes: https://github.com/kennyh7279/plank-themes
 
@@ -173,37 +174,37 @@ Download themes: https://github.com/kennyh7279/plank-themes
 
 <br/>
 
-## 4 ➜ DICAS
+## 4 ➜ HINTS
 
-### 4.1 – Abrir pastas como Administrador:
+### 4.1 – Open folder as Administrator:
 	sudo nautilus /usr/share/icons
-> Edite a parte `/usr/share/icons` no comando acima, caso queira acessar outro diretório.
+> Edit `/usr/share/icons` above, if you want to access another directory.
 
 <br/>
 
-### 4.2 – Desmontar a partição do Windows estando logado no Ubuntu:
+### 4.2 – Unmount the Windows partition while logged into Ubuntu or another Ubuntu based OS:
 	mount -o ro /dev/sda2
-> Edite a parte `sda2` no comando acima se essa não for a partição em que seu Windows está instalado.
-- Fonte: http://askubuntu.com/questions/335909/error-mounting-dev-sda2-at-media
+> Edit `sda2` above if that's not the partition your Windows is installed on.
+- Source: http://askubuntu.com/questions/335909/error-mounting-dev-sda2-at-media
 
 <br/>
 
-### 4.3 – Conferir o driver de vídeo instalado:
+### 4.3 – Check the video driver installed
 	lspci -k | grep -EA3 'VGA|3D|Display'
-> O comando `VGA|3D|Display` busca as instalações dos respectivos drivers `INTEL|NVIDIA|AMD`, se existirem.
+> The `VGA|3D|Display` stands for `INTEL|NVIDIA|AMD` respectively.
 
 <br/>
 
-### 4.4 – Corrigir bug da lixeira que não permite excluir arquivos:
+### 4.4 – Fix the bug "Can't move files to the trash":
 	sudo chown -R “$USER” ~/.local/share/Trash
-> Edite a parte `“$USER”` no comando acima e digite o seu nome de usuário no Ubuntu (sem aspas).
-- Fonte: http://askubuntu.com/questions/288513/cant-move-files-to-the-trash
+> Edit the `“$USER”` part above and enter your Ubuntu username (without quotes).
+- Source: http://askubuntu.com/questions/288513/cant-move-files-to-the-trash
 
 <br/>
 
-### 4.5 – Recuperar o GRUB perdido após uma atualização do Windows (dual boot):
+### 4.5 – Recover lost GRUB after a Windows update (dual boot):
 	bcdedit /set "{bootmgr}" path \EFI\ubuntu\grubx64.efi
-> A partir do Windows, rodar o comando acima no PowerShell como Administrador.
-- Fonte: https://askubuntu.com/questions/655011/windows-10-upgrade-kills-grub-and-boot-repair-doesnt-help
+> Logged into Windows, run the command above in PowerShell as Administrator.
+- Source: https://askubuntu.com/questions/655011/windows-10-upgrade-kills-grub-and-boot-repair-doesnt-help
 
 <br/>
