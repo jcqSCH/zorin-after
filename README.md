@@ -1,4 +1,4 @@
-# ZORIN OS 22.04.1 LTS: after install
+# ZORIN OS 16.2 CORE: after install
 Things to do after installing Zorin Operating System. <br/>
 Tested version: Zorin OS 16.2 Core (based on Ubuntu 22.04 LTS)
 <br/>
