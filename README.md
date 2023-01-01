@@ -91,7 +91,7 @@ https://zorin.com/os/download/
 ## 3 ➜ SETTINGS
 
 ### 3.1 – Plank:
-Download themes: https://github.com/kennyh7279/plank-themes
+Download themes: https://github.com/dabrowski-adam/plank-themes
 
 |  SETTINGS   |             …             |
 |       ---        |            ---            |
