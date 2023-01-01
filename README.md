@@ -59,7 +59,7 @@ https://zorin.com/os/download/
 
 <br/>
 
-### 2.1 ➜ REALTEK RTL8821CU DRIVER
+### 2.1 ➜ REALTEK RTL8821CU WI-FI DRIVER
 	sudo apt-get install build-essential dkms git-all bc -y 
 	
 	# OPEN DRIVER FOLDER IN TERMINAL #
@@ -74,7 +74,7 @@ https://zorin.com/os/download/
 
 <br/>
 
-### 2.2 ➜ WPS OFFICE FULL VERSION (BR LANGUAGE)
+### 2.2 ➜ WPS OFFICE FULL VERSION (PT-BR LANGUAGE)
 	wget -qO - "https://winunix.github.io/debian/public.key" | sudo apt-key add -
 	echo "deb https://winunix.github.io/debian focal main" | sudo tee /etc/apt/sources.list.d/winunix-focal.list
 
