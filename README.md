@@ -7,10 +7,11 @@ https://zorin.com/os/download/
 <br/>
 
 ## 1 ➜ DOWNLOAD .DEB OR SNAP PACKAGES
-**VS Code:** https://code.visualstudio.com/download/ <br/> 
-**PowerShell:** https://github.com/PowerShell/PowerShell#get-powershell <br/> 
-**Spotify:** https://www.spotify.com/br/download/linux/ <br/>
+**VS Code:** https://code.visualstudio.com/download/ <br/>
+**PowerShell:** https://github.com/PowerShell/PowerShell#get-powershell <br/>
 **Google Chrome:** https://www.google.com/chrome/browser/desktop/ <br/>
+**WPS Office:** https://www.wps.com/pt-BR/office/linux/ <br/>
+**Spotify:** https://www.spotify.com/br/download/linux/ <br/>
 **OpenRGB:** https://openrgb.org/releases.html
 
 <br/>
